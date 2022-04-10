@@ -1,0 +1,27 @@
+.property-slider {
+    padding: 1em 10%;
+    .slick-dots li button:before {
+        content: '';
+        background: #19263A;
+        margin-top: 1em;
+        width: 15px;
+        height: 15px;
+    }
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        &--next {
+            right: -50px;
+            z-index: 9;
+            cursor: pointer;
+        }
+        &--previous {
+            left: -50px;
+            cursor: pointer;
+        }
+    }
+    &__title {
+        color: #19263A;
+        text-align: center;
+    }
+}

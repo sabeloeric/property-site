@@ -1,0 +1,14 @@
+.text-content {
+    padding: 5% 10%;
+    text-align: center;
+
+    &__title {
+        color: #19263A;
+    }
+    &__subtitle {
+        color: #828282;
+    }
+    &__button {
+        margin-top: 2em;
+    }
+}

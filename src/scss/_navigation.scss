@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    height: 110.59px;
+    background: #19263A;
+    &__menu {
+        @media screen and (max-width: 500px) {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+    }
+    &__link {
+        text-transform: uppercase;
+        font-family: 'Open Sans';
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+        margin: 4px 8px;
+        white-space: nowrap;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    @media screen and (max-width: 790px) {
+        flex-direction: column;
+    }
+    @media screen and (max-width: 500px) {
+        height: auto;
+    }
+}
