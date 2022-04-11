@@ -55,7 +55,7 @@ export default function HeaderForm() {
                         <img src="src/images/header-form/down-arrow-2.svg" />
                         More Search Options
                     </button>
-                    <button className="button button--primary header__form-button">
+                    <button className="button button--primary header__form-button search-button">
                         <img src="src/images/header-form/search.svg" />
                         SEARCH
                     </button>
